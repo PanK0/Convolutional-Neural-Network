@@ -21,3 +21,20 @@ Follow these instructions if you don't want to modify the paths in the code.
 - Create a directory in your Google Drive named *ML2021*.
 - Create another directory into *ML2021* called *hw2*, such that the **absolute path** will be `/content/drive/MyDrive/ML2021/hw2/`.
 - Put the unzipped folders *train150* and *test150* into the folder *hw2*. The final results should be to have two folders `/content/drive/MyDrive/ML2021/hw2/train150` and `/content/drive/MyDrive/ML2021/hw2/test150`.
+
+## Original Homework Request
+This homework aims at solving an image classification problem with objects typically available in a home environment. To this end, we will use the RoboCup@Home-Objects dataset that has been developed within the RoboCup@Home competition.
+
+Each student will solve a personalized 8-classes classification problem (as a subset of the entire dataset), depending on his/her matricola code.
+
+To generate your dataset, follow these steps:
+
+1) Duplicate this Colab and put your matricola number in the piece of code below (replacing the ERROR string)
+
+2) Run the code and take note of the 8 printed labels
+
+3) Download the corresponding 8 ZIP files from this folder
+
+https://drive.google.com/drive/folders/1dL4OZRPLahq6aSgWxk9efmFbfoy1Vp0I
+
+4) Use images in these 8 ZIP files as dataset for your 8-classes image classification problem
